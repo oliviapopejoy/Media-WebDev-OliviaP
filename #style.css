@@ -1,0 +1,44 @@
+body {
+    margin: 32px;
+    background-color: white;
+  }
+  
+  
+  .sans {
+    font-family: sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    color: black;
+    padding: 1px;
+  }
+  
+  .navParent {
+    text-align: center;
+    font-size: 18px;
+    color: snow;
+    padding: 40px;
+  }
+  .navParent:hover {
+    stroke-width: 6px;
+    text-shadow: 1px 0px 20px lime;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .colOne {
+    flex-direction: row;
+    box-shadow: 10px 0px 10px grey;
+    
+  }
+  
+  .colTwo {
+    flex-direction: row;
+    box-shadow: 10px 0px 10px grey;
+  }
+  
